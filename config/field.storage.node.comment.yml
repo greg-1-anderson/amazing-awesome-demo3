@@ -1,0 +1,22 @@
+uuid: e4ea4623-380b-40e1-82e3-2ba8dd1b25b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - node
+_core:
+  default_config_hash: ktCna9xmWvYZIUfOCUyDQvedn5RtnS4CRmEIwNmvYjc
+id: node.comment
+field_name: comment
+entity_type: node
+type: comment
+settings:
+  comment_type: comment
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
